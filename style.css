@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #0d1117;
+    color: #cbcfd4;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.cardContainer{
+    width: 90%;
+    height: 80%;
+
+    border: 5px solid #cbcfd4;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.card{
+    margin: 0;
+    width: 6.25%;
+    height: 6.25%;
+
+    background-color: #0d1117;
+
+    transition: background-color 0.5s ease;
+
+}
+
+.hovered{
+    background-color: #cbcfd4;
+}
